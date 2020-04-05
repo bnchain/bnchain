@@ -1,7 +1,3 @@
-[![pipeline status](https://api.travis-ci.org/bnchain/plugin.svg?branch=master)](https://travis-ci.org/bnchain/plugin/)
-[![Go Report Card](https://goreportcard.com/badge/github.com/bnchain/plugin?branch=master)](https://goreportcard.com/report/github.com/bnchain/plugin)
-
-
 # BitNasdaq chain system based on bnchain blockchain development framework
 
 
