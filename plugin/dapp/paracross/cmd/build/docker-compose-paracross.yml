@@ -1,0 +1,37 @@
+version: '3'
+
+services:
+  bnchain:
+    entrypoint: /root/entrypoint.sh
+    environment:
+      PARAFILE: "/root/bnchain.para33.toml"
+    expose:
+     - "8802"
+
+  chain32:
+    entrypoint: /root/entrypoint.sh
+    environment:
+      PARAFILE: "/root/bnchain.para32.toml"
+
+  chain31:
+    entrypoint: /root/entrypoint.sh
+    environment:
+      PARAFILE: "/root/bnchain.para31.toml"
+
+  chain30:
+    entrypoint: /root/entrypoint.sh
+    environment:
+      PARAFILE: "/root/bnchain.para30.toml"
+    expose:
+     - "8802"
+
+
+  nginx:
+    image: nginx:latest
+    depends_on:
+     - bnchain
+     - chain30
+    volumes:
+     - ./nginx.conf:/etc/nginx/nginx.conf
+    expose:
+     - "8803"

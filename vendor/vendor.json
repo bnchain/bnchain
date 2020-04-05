@@ -1,0 +1,1352 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "CuxuBmnP86vLFU8v75zY62nFrrk=",
+			"path": "github.com/bnchain/plugin/cli/buildflags",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "YqYLdF+HBtN/XeN6hKyljS1h1Dk=",
+			"path": "github.com/bnchain/plugin/plugin",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "uI6De7yr/5WAjzLbkDaR/pDrVCw=",
+			"path": "github.com/bnchain/plugin/plugin/consensus/init",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "0a9PcKlJu7hpgTNfOJCHh5gM//A=",
+			"path": "github.com/bnchain/plugin/plugin/consensus/para",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "w88/4KL9KSHayrZoZ+KJdu3w35g=",
+			"path": "github.com/bnchain/plugin/plugin/consensus/pbft",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "DcDuwFiKovZmB9gIpNb7Yp0/fl0=",
+			"path": "github.com/bnchain/plugin/plugin/consensus/raft",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "DMs4BYgGPjQYnXg7JHkDm0yBFTk=",
+			"path": "github.com/bnchain/plugin/plugin/consensus/tendermint",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "q6xy7GClBMIJijTcVPy/VMOX+R8=",
+			"path": "github.com/bnchain/plugin/plugin/consensus/tendermint/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "PJdgWvJHxXn7XKhmJ+Gn4970FVU=",
+			"path": "github.com/bnchain/plugin/plugin/consensus/ticket",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "xHInPQ3eiU1BMRnuhFsl4hE5lh4=",
+			"path": "github.com/bnchain/plugin/plugin/crypto/ecdsa",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "b0vPAXYb/Mx0lJxCRXKkSTI7mtE=",
+			"path": "github.com/bnchain/plugin/plugin/crypto/init",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "gaD3pdqiZPwm6+K7mj3J04Z1I2U=",
+			"path": "github.com/bnchain/plugin/plugin/crypto/sm2",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "97cwBD8fbdr66COsgySNGg4htbQ=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/blackwhite",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "7Oze/QSmCgnf8jdUUpkFAMrxqyU=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/blackwhite/commands",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "xcFKjPFtrGsJd97WetdiR6jtxzc=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/blackwhite/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "HWE/ntyOUEIcXPqCSnPf/vlot6E=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/blackwhite/rpc",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "WXqBaD6Jgk25vpiR1bggOTgCwhI=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/blackwhite/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "ad54GSTTFsXzOrk8yiYlEiZquc4=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/cert",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "84Z+q8dXKMq2X6W1Nofymmbaeh8=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/cert/authority",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "DrA/XJhjI/7YcKqQ6Ylp1WuSfmc=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/cert/authority/core",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "+5/7vTIPAbtgcWy/dI9aBxYPjCI=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/cert/authority/tools/cryptogen/factory/csp",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "VnTcuGTMPOn9vNv1mHmc3YY2iQ4=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/cert/authority/tools/cryptogen/factory/signer",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "hpGmtSpVxP5pCgvq5Y1QdEkGp9o=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/cert/authority/tools/cryptogen/factory/utils",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "lDA1KiwZoNdxVmfRTXg9uKttoLQ=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/cert/authority/tools/cryptogen/generator",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "dwZonqmmTGl8b79GoNW35GqhZWA=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/cert/authority/tools/cryptogen/generator/impl",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "2npvIr1laQmCxovzNLpzonYK7u4=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/cert/authority/tools/cryptogen/generator/utils",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "jxaNxDerqS9lNMj1pPtnEV0nYLs=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/cert/authority/utils",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "uvwfz3xWM5l3ri5YvX0Ewvb6Xq0=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/cert/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "JOzFU0DrH/VNy8LpFu8s/SZrdPg=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/cert/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "A0FBSoaCaUoGeXzeuUe3AUHTizQ=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/echo",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "Eq8lvbwEUDJff0jU31wSl1YRShI=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/echo/commands",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "ItVKx2N9qpx2X19qnRwzEdUqjnE=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/echo/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "Nn750gnrbhsXjqa4rJVGuqst9co=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/echo/rpc",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "5W3IyOPb2PbBGaHZ1/0/pYfVj1o=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/echo/types/echo",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "IspZu88rUqNI6QPVDaZrL0i2eyQ=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/evm",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "4gUadVND0qDCX7ULLmzQcx9Qs3U=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/evm/commands",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "I3S7zuh33tFXCyZvyPAKnUfMwsw=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/evm/commands/compiler",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "SlBEJVtJvPnUimVBWEwTvGOvVuA=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/evm/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "Ywya2SRzRfUpR8lL8wrPkCrBD5o=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/evm/executor/abi",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "oIefOCSp3LB1sKpGAwH26wdDQds=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/evm/executor/vm/common",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "bXuixdvVJvMuwHL/irnu5CfEMBU=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/evm/executor/vm/common/crypto",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "tH5TnZtLDaz3hauahwrIbu4WbV4=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/evm/executor/vm/common/crypto/bn256",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "Yt6rvS5n+KSifQTOL0gFgGcWMTo=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/evm/executor/vm/gas",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "q0982dHKSGre7kbmQXHy5u5rtkY=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/evm/executor/vm/mm",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "bC5QFbzcOeHnDDNc+0KXacKzve8=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/evm/executor/vm/model",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "656W4oRZoH0b9dYkWGxYcmacJeU=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/evm/executor/vm/params",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "oyoiEO12PQjgVVDOfwN0jasiXHg=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/evm/executor/vm/runtime",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "qbVqywT3qtC0Np/kVoN1bmNjXiQ=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/evm/executor/vm/state",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "15sSgPFkPLrUqu49cHO3/VBf+P4=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/evm/rpc",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "zMXPASLs2BCZhDpK2MNb6J0rVDg=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/evm/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "qxbMD9N4stwKbMQzpyJIzRlp+dk=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/game",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "98npZmiCvsL4X7FcwnssnLRfmb4=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/game/commands",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "BLkFwl3/7r3+ZI1l4FGEGkOuqTc=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/game/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "Ny8sXtfYboFENBz07NJjsrFnCxU=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/game/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "zC/fjc9ip19RMBSokIdm5vu41ZU=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/guess",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "HRAH5iq6W/cJ8VUef1bwKjIU8Vo=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/guess/commands",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "0DQ03sKlWZ75PXwebex4HOCEXMU=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/guess/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "41ee7FC2IduM5sppz/1oo4DT0cM=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/guess/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "C9V/Gu/WN1mvguHtwZCbNhoCwPU=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/hashlock",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "7MTAiYhDEjkvpWpeu7QzcD6A3G8=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/hashlock/commands",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "HYvytGMmJWWKoLseK4takcdiyXo=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/hashlock/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "OkTXD3sJfSHvlCiHRKG0O8n7cRU=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/hashlock/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "NtvF3PLcwuq2oLLxiRr1rAEqALk=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/init",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "IxP2+BDQ9+wwtwPpeo0+IlO5vUs=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/js",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "lSHa3QqztEdQ74IyvL7h9fnVvuU=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/js/autotest",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "ij3L3OO/1vjWRwdUqJ25FZkLjCI=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/js/command",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "14qjftDSdigutvEkGJjdotW7hpc=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/js/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "Tmk6KgZVFVt6hYcCQueF4rd4gpM=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/js/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "Bw6lAnfsP1gbANxZxrnv2dIzCd0=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/js/types/jsproto",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "VR1uhiSu0QOhFRWpDCJCvmtRecI=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/lottery",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "5eIsJgLEJ35Ov4ASFYpnky9n5I8=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/lottery/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "LjRaWTLu8suE8XjA+4qWPqwMdEg=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/lottery/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "p8YVCydbWxfxMAEVtXXcBzRhuG8=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/multisig",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "PN4Flj2xg+vzw1UokuVDuE+zf7Y=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/multisig/autotest",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "/kdHVb0NWYP9p4RPEbPzoSJOdGY=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/multisig/commands",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "xtNyTXNfFIlPsYN2vtoTckqCkc0=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/multisig/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "GumcAYVCijRFd9GN0S6oZ9qRuq0=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/multisig/rpc",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "g9hU8drIY0KIQs9/wweUDB1TmEE=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/multisig/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "ikFbR/XBSVbnCwzd3aX/nRWH/Y0=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/multisig/wallet",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "lFN2Q0FGT+wWUCEe0Y9dtxe3aqM=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/norm",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "WRLrYrNSpBahAGNX/LrRTAZ63QQ=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/norm/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "eTE26UbN0J/q3qq87uI6ahhulfU=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/norm/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "aCwKAeaehvjoHypfvWPgXbA8CMg=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/oracle",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "08/Jv5QNvftrQQc3BhEAU7sbEUE=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/oracle/commands",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "kvIM7psTWm/hopSrkffBCXAaudE=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/oracle/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "lCuUrGFU3f3ibCXZWHt49iDbzeU=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/oracle/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "+GfzXEIykMPNI6nj2JjFJSfTtMU=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/paracross",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "Xg5TkuDYCpC762p30Ru53lkN4is=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/paracross/autotest",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "Esoxh0ITphgCux0yNtVZzwSQBdw=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/paracross/commands",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "0vztyc/RdbmZoZwfyQC25RrxP4Y=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/paracross/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "x2Cx15g9zuRnKcDXdztkus6WGQk=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/paracross/rpc",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "nT1RK9ioliAjjPbss7Kg5jzr58U=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/paracross/testnode",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "MA+F/oPZiflfJg6AhBUeeiVizeU=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/paracross/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "O4Hzh/Oa1GqGK2N5yhXfazNkxP0=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/paracross/wallet",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "q2y62PV1jU/B/oGAzV1AZiH7rSA=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/pokerbull",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "CPP7B4kbUc7wz+J0g8x6N3+7xWs=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/pokerbull/cmd",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "e1SmL2jwoIXpj7IhJM1bILWMXMU=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/pokerbull/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "6uAVf7gF5/XoUhNYVCNZLR6T+MI=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/pokerbull/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "1kAEGE3lH/f0SWpUVm2DwLT4nxQ=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/privacy",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "TNvF87cjXhc+MD+9rJQca+TTSuw=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/privacy/autotest",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "svXdVxgZtmow1/33v5mdHe1d0Sw=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/privacy/commands",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "AP4oY4ccwwUK97l7b9N3QdGWmF8=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/privacy/crypto",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "KU8zc3hOdWcNqxj7mff8ZOgorg0=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/privacy/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "Eq1xbXNOe8PqnEsmo1dyHK1BIms=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/privacy/rpc",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "hyuHx+JCdV0cavMnICasnKNnz1I=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/privacy/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "/8d8Sm+IQAUHotIjEXRLoupxkQc=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/privacy/wallet",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "f6knSzt2HaLtJAejJeb53xXL+jg=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/relay",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "RAU+clCuYCgf7nAm2OHd8y1HeXI=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/relay/cmd/relayd/relayd",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "0Tw9d8S3LNKjNZwpT76G4AMePdo=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/relay/commands",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "G+cspf8ZpQkod9CGCpa0J/OKZYs=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/relay/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "euIPhb9I6i5+sPgF7nekPdVj+qg=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/relay/rpc",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "qX25Z+pOtq63JXvJgMAWskhX4rc=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/relay/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "sGXHZgFRsOeqijM7mx0FOSIUeO4=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/retrieve",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "ZiDfNyt6CDkyds0tOqoCnNlQgnw=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/retrieve/cmd",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "IrdC5Jdo9x7tMBH5hloyw+3tZMs=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/retrieve/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "gMQE4LcxTlBAWS4MEMFZ7W2Dctw=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/retrieve/rpc",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "Hy4La6bCZvOBnugIpuXGg+u9TXQ=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/retrieve/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "tXenN5wft4RGT0qDClsholALP1Q=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/ticket",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "gRL2elYxV0k6o0YyVrnQaGw5334=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/ticket/commands",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "hUpH1VQwoUzCeqMhtreIN+AUuJ0=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/ticket/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "va9jXei6PKw8DLxc6MrzXRgCv84=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/ticket/rpc",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "jaZFgV4U5AVWnS9hE0HcJlSd86Q=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/ticket/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "DoZzpBGw4Gg97De7DkQiB9xKJuo=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/ticket/wallet",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "OrWvBeCcrMTcCE8h47+u4YjXAhw=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/token",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "wW7bQoUgAL1r98PeNX6awFSUzyI=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/token/autotest",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "WxCTIu5/kvoTUfesgMy3P2QcDrk=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/token/cmd/signatory-server/signatory",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "+Lk1M2WtjS8hnb77ZThDsyAfPtE=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/token/commands",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "BnXz0Nezpy2RRsNZ2Del3i/0qQE=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/token/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "vTvSFe/sOjpe/EczYghgRiQMKH0=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/token/rpc",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "FIZqYaut9PxPQfiMoYdikTx2ssA=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/token/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "v3O9wCzgZZj/qWBtB4wJfztN91c=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/trade",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "H87Cs6KrA3gvarGvpOqY1s6hXsE=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/trade/autotest",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "ayNH6N+9GHBdtACDVjzM9QldtgI=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/trade/commands",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "Qn8K7/XUcYzTSU2n4E3fwPMk9e0=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/trade/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "DGPGQhIwqaWwskrXdgmTWLUS+Hw=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/trade/rpc",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "XHjw3s+AGxWkMGXxPHS64sT4jlk=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/trade/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "PJIcC4Vg+45E1/RLJqIx50vK07A=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/unfreeze",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "Kh/kryNNg/yGg+X2D/dxyGPYyFU=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/unfreeze/autotest",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "GfdYO0fGvk2siapC6os/zbs5lao=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/unfreeze/commands",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "b8EN8dukOuJM5iqC+Jf76aI+shc=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/unfreeze/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "8lU6edFV+hmEQzuyPFcML0coGCY=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/unfreeze/rpc",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "NlbYOp8weq+O3dJ7GSmjy0VlVi0=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/unfreeze/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "5fs06mmvrN17Md/bNhNp/NM65bw=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/valnode",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "Q/WojVMate0c6yvkUUYIiZEo80Q=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/valnode/commands",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "fipjpFwg1UfNlJE9/uydDf5Y9AU=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/valnode/executor",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "AJCTDNlgE0SEHDWc9cO2DG0ynqY=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/valnode/rpc",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "Art0WGsHwBGyq0KMbTXl3DIcHwk=",
+			"path": "github.com/bnchain/plugin/plugin/dapp/valnode/types",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "/TbAS3g2ATWstjh5IZQQFNMvyjI=",
+			"path": "github.com/bnchain/plugin/plugin/mempool/init",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "Pa3WSg8z1hGqtguYfsVPV9ap8N0=",
+			"path": "github.com/bnchain/plugin/plugin/mempool/para",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "9bXzmo/37F/S3zdmpzrUJYWp6Os=",
+			"path": "github.com/bnchain/plugin/plugin/mempool/price",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "aiB6HIyRPLiblNOTuiWQzJGP5No=",
+			"path": "github.com/bnchain/plugin/plugin/mempool/score",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "7kbKfWoolT/83xLzgJXWjE6vTdQ=",
+			"path": "github.com/bnchain/plugin/plugin/store/init",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "9J6g8jz2UgUJfu9X+fXB1UDDq9I=",
+			"path": "github.com/bnchain/plugin/plugin/store/kvdb",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "bgRKMuiB5aXoNorZP2OwNbNKCIw=",
+			"path": "github.com/bnchain/plugin/plugin/store/kvmvcc",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "uvWYbIDzBOOY00iQHvE+DWwDyaE=",
+			"path": "github.com/bnchain/plugin/plugin/store/kvmvccmavl",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "gNNhazO1pUAXPlg0nY++aVzDGEQ=",
+			"path": "github.com/bnchain/plugin/plugin/store/mpt",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "ZuXOrHf3aOXogSLpDqTePOI2Ud4=",
+			"path": "github.com/bnchain/plugin/plugin/store/mpt/db",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "QF/5RbTD60FQ7akuI1r3dhwUedI=",
+			"path": "github.com/bnchain/plugin/plugin/store/mpt/db2/rlp",
+			"revision": "a6fa334a2d13ba7736fb59d9a8cb961b3b5f19c6",
+			"revisionTime": "2019-06-20T12:16:01Z"
+		},
+		{
+			"checksumSHA1": "0rido7hYHQtfq3UJzVT5LClLAWc=",
+			"path": "github.com/beorn7/perks/quantile",
+			"revision": "3a771d992973f24aa725d07868b467d1ddfceafb",
+			"revisionTime": "2018-03-21T16:47:47Z"
+		},
+		{
+			"path": "github.com/bnchain/bnchain/plugin/plugin",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "Hv2ZD4AjxLziuUEY9cOBA4teBTI=",
+			"path": "github.com/btcsuite/btcd/btcjson",
+			"revision": "67e573d211ace594f1366b4ce9d39726c4b19bd0",
+			"revisionTime": "2018-10-13T00:44:28Z"
+		},
+		{
+			"path": "github.com/btcsuite/btcd/chaincfg",
+			"revision": ""
+		},
+		{
+			"path": "github.com/btcsuite/btcd/chaincfg/chainhash",
+			"revision": ""
+		},
+		{
+			"path": "github.com/btcsuite/btcd/rpcclient",
+			"revision": ""
+		},
+		{
+			"path": "github.com/btcsuite/btcd/wire",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "J6VwqSZwsPkigujNZo4vyYIFPWU=",
+			"path": "github.com/btcsuite/btclog",
+			"revision": "84c8d2346e9fc8c7b947e243b9c24e6df9fd206a",
+			"revisionTime": "2017-06-28T15:40:31Z"
+		},
+		{
+			"checksumSHA1": "a0lhAUra/SLAkKMxrBZIydBVJjU=",
+			"path": "github.com/btcsuite/btcutil",
+			"revision": "ab6388e0c60ae4834a1f57511e20c17b5f78be4b",
+			"revisionTime": "2018-07-06T23:06:48Z"
+		},
+		{
+			"checksumSHA1": "oQgLy8KmIOVov04WXH7KgU1bszc=",
+			"path": "github.com/btcsuite/btcutil/base58",
+			"revision": "ab6388e0c60ae4834a1f57511e20c17b5f78be4b",
+			"revisionTime": "2018-07-06T23:06:48Z"
+		},
+		{
+			"checksumSHA1": "BBnsAiKyNfocRwmEav5EJpVCwzk=",
+			"path": "github.com/btcsuite/btcutil/bech32",
+			"revision": "ab6388e0c60ae4834a1f57511e20c17b5f78be4b",
+			"revisionTime": "2018-07-06T23:06:48Z"
+		},
+		{
+			"checksumSHA1": "j3yRnuia1i5Wb7C9Tc5g0d6gdpM=",
+			"path": "github.com/btcsuite/go-socks/socks",
+			"revision": "4720035b7bfd2a9bb130b1c184f8bbe41b6f0d0f",
+			"revisionTime": "2016-12-14T21:12:04Z"
+		},
+		{
+			"checksumSHA1": "Uf5l11rLPQGlCJsRbgX9CI2wbuA=",
+			"path": "github.com/btcsuite/websocket",
+			"revision": "31079b6807923eb23992c421b114992b95131b55",
+			"revisionTime": "2015-01-19T17:41:27Z"
+		},
+		{
+			"checksumSHA1": "MCRTr07plulsvznCEDRO7fGEPVk=",
+			"path": "github.com/coreos/etcd/lease",
+			"revision": "83304cfc808cf6303d48c45a696f169fae422e68",
+			"revisionTime": "2018-10-31T23:12:32Z"
+		},
+		{
+			"checksumSHA1": "jhvwe0aUO45hqJTqxR+DoW8937I=",
+			"path": "github.com/coreos/etcd/pkg/adt",
+			"revision": "83304cfc808cf6303d48c45a696f169fae422e68",
+			"revisionTime": "2018-10-31T23:12:32Z"
+		},
+		{
+			"path": "github.com/coreos/etcd/pkg/fileutil",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "YWoIs54sHad3IPtcG5P1kO3/IJE=",
+			"path": "github.com/coreos/etcd/pkg/schedule",
+			"revision": "83304cfc808cf6303d48c45a696f169fae422e68",
+			"revisionTime": "2018-10-31T23:12:32Z"
+		},
+		{
+			"checksumSHA1": "blOHP3HPYU+IeV6yWCalQuuM+zE=",
+			"path": "github.com/dgrijalva/jwt-go",
+			"revision": "3af4c746e1c248ee8491a3e0c6f7a9cd831e95f8",
+			"revisionTime": "2018-09-21T17:23:15Z"
+		},
+		{
+			"checksumSHA1": "FrFUyTbM2HweMAfdLEig956GBK0=",
+			"path": "github.com/dustin/go-humanize",
+			"revision": "9f541cc9db5d55bce703bd99987c9d5cb8eea45e",
+			"revisionTime": "2018-06-22T23:30:57Z"
+		},
+		{
+			"checksumSHA1": "pJXzVDELlE9chqwiEp1zs1O7wgI=",
+			"path": "github.com/gogo/protobuf/gogoproto",
+			"revision": "211a54c57504366b3bf4b490fb3c0a5f5b8d290b",
+			"revisionTime": "2018-11-04T16:40:17Z"
+		},
+		{
+			"checksumSHA1": "D801O79vbqb3Oj8ffY4xOnSg814=",
+			"path": "github.com/gogo/protobuf/proto",
+			"revision": "211a54c57504366b3bf4b490fb3c0a5f5b8d290b",
+			"revisionTime": "2018-11-04T16:40:17Z"
+		},
+		{
+			"checksumSHA1": "4R7X2wRYYOxdXsoXOEcyBoCakb8=",
+			"path": "github.com/gogo/protobuf/protoc-gen-gogo/descriptor",
+			"revision": "211a54c57504366b3bf4b490fb3c0a5f5b8d290b",
+			"revisionTime": "2018-11-04T16:40:17Z"
+		},
+		{
+			"checksumSHA1": "06pu4WTqbWBAHCJhCLZaI1droeM=",
+			"path": "github.com/golang-collections/collections/stack",
+			"revision": "604e922904d35e97f98a774db7881f049cd8d970",
+			"revisionTime": "2013-07-29T18:54:59Z"
+		},
+		{
+			"checksumSHA1": "BP2buXHHOKxI5eYS2xELVng2kf4=",
+			"path": "github.com/golang/protobuf/jsonpb",
+			"revision": "951a149f90371fb8858c6c979d03bb2583611052",
+			"revisionTime": "2018-11-08T17:20:01Z"
+		},
+		{
+			"checksumSHA1": "1wGa+UXlNg3+GI6pKlOCOL2dbt8=",
+			"path": "github.com/google/btree",
+			"revision": "4030bb1f1f0c35b30ca7009e9ebd06849dd45306",
+			"revisionTime": "2018-08-13T15:31:12Z"
+		},
+		{
+			"checksumSHA1": "KAMDOfNMYpNFZo/l3WEATYQ2fSM=",
+			"path": "github.com/grpc-ecosystem/grpc-gateway/runtime",
+			"revision": "3ff87af9f7d72b06bf49dc35c5c97f4d99a07977",
+			"revisionTime": "2018-11-08T22:58:24Z"
+		},
+		{
+			"checksumSHA1": "HV5bBOOPCOhO6SUMFIGW/M6vi+I=",
+			"path": "github.com/grpc-ecosystem/grpc-gateway/runtime/internal",
+			"revision": "3ff87af9f7d72b06bf49dc35c5c97f4d99a07977",
+			"revisionTime": "2018-11-08T22:58:24Z"
+		},
+		{
+			"checksumSHA1": "QuHQq2+nPPMMJ3qoJxlQ8ZCVEfk=",
+			"path": "github.com/grpc-ecosystem/grpc-gateway/utilities",
+			"revision": "3ff87af9f7d72b06bf49dc35c5c97f4d99a07977",
+			"revisionTime": "2018-11-08T22:58:24Z"
+		},
+		{
+			"checksumSHA1": "5BFhwYqOy2dR2NwDe3cCauuxEYM=",
+			"path": "github.com/klauspost/compress/flate",
+			"revision": "b50017755d442260d792c34c7c43216d9ba7ffc7",
+			"revisionTime": "2018-08-01T09:52:37Z"
+		},
+		{
+			"checksumSHA1": "kWBC7CTgppTdJFXizt4XkURbyCE=",
+			"path": "github.com/klauspost/compress/gzip",
+			"revision": "b50017755d442260d792c34c7c43216d9ba7ffc7",
+			"revisionTime": "2018-08-01T09:52:37Z"
+		},
+		{
+			"checksumSHA1": "KQ77MI2l4iDQE0Z/DiDeO0S963o=",
+			"path": "github.com/klauspost/compress/zlib",
+			"revision": "b50017755d442260d792c34c7c43216d9ba7ffc7",
+			"revisionTime": "2018-08-01T09:52:37Z"
+		},
+		{
+			"checksumSHA1": "xEHEfywV/9zZ/nPy/PJBF6xVn1o=",
+			"path": "github.com/klauspost/cpuid",
+			"revision": "e7e905edc00ea8827e58662220139109efea09db",
+			"revisionTime": "2018-04-05T13:32:22Z"
+		},
+		{
+			"checksumSHA1": "EpvNqx0QWzG0qXqgOUjhPxYRUpA=",
+			"path": "github.com/kr/fs",
+			"revision": "1455def202f6e05b95cc7bfc7e8ae67ae5141eba",
+			"revisionTime": "2018-05-06T03:17:01Z"
+		},
+		{
+			"checksumSHA1": "bKMZjd2wPw13VwoE7mBeSv5djFA=",
+			"path": "github.com/matttproud/golang_protobuf_extensions/pbutil",
+			"revision": "c12348ce28de40eed0136aa2b644d0ee0650e56c",
+			"revisionTime": "2016-04-24T11:30:07Z"
+		},
+		{
+			"checksumSHA1": "Hc7LMQrHR71kkSsd/P/SBdiC258=",
+			"path": "github.com/petar/GoLLRB/llrb",
+			"revision": "53be0d36a84c2a886ca057d34b6aa4468df9ccb4",
+			"revisionTime": "2013-04-27T21:51:48Z"
+		},
+		{
+			"checksumSHA1": "s4CMaRirYhGHfxYn6rFRHMczHaw=",
+			"path": "github.com/pkg/sftp",
+			"revision": "08de04f133f27844173471167014e1a753655ac8",
+			"revisionTime": "2018-09-17T22:22:55Z"
+		},
+		{
+			"checksumSHA1": "JKm/LRfEg6/MwrN6bdjRSHnWazM=",
+			"path": "github.com/prometheus/client_golang/prometheus",
+			"revision": "abad2d1bd44235a26707c172eab6bca5bf2dbad3",
+			"revisionTime": "2018-11-03T14:23:28Z"
+		},
+		{
+			"checksumSHA1": "UBqhkyjCz47+S19MVTigxJ2VjVQ=",
+			"path": "github.com/prometheus/client_golang/prometheus/internal",
+			"revision": "abad2d1bd44235a26707c172eab6bca5bf2dbad3",
+			"revisionTime": "2018-11-03T14:23:28Z"
+		},
+		{
+			"checksumSHA1": "V8xkqgmP66sq2ZW4QO5wi9a4oZE=",
+			"path": "github.com/prometheus/client_model/go",
+			"revision": "5c3871d89910bfb32f5fcab2aa4b9ec68e65a99f",
+			"revisionTime": "2018-07-12T10:51:10Z"
+		},
+		{
+			"checksumSHA1": "ljxJzXiQ7dNsmuRIUhqqP+qjRWc=",
+			"path": "github.com/prometheus/common/expfmt",
+			"revision": "7e9e6cabbd393fc208072eedef99188d0ce788b6",
+			"revisionTime": "2018-10-20T17:39:14Z"
+		},
+		{
+			"checksumSHA1": "GWlM3d2vPYyNATtTFgftS10/A9w=",
+			"path": "github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg",
+			"revision": "7e9e6cabbd393fc208072eedef99188d0ce788b6",
+			"revisionTime": "2018-10-20T17:39:14Z"
+		},
+		{
+			"checksumSHA1": "ewHRWF7p/HQeh7RowZg5BUeDkdY=",
+			"path": "github.com/prometheus/common/model",
+			"revision": "7e9e6cabbd393fc208072eedef99188d0ce788b6",
+			"revisionTime": "2018-10-20T17:39:14Z"
+		},
+		{
+			"checksumSHA1": "4zOdjJcskuocAzI+i6rcRzYjSlI=",
+			"path": "github.com/prometheus/procfs",
+			"revision": "185b4288413d2a0dd0806f78c90dde719829e5ae",
+			"revisionTime": "2018-10-05T14:02:18Z"
+		},
+		{
+			"checksumSHA1": "8E1IbrgtLBee7J404VKPyoI+qsk=",
+			"path": "github.com/prometheus/procfs/internal/util",
+			"revision": "185b4288413d2a0dd0806f78c90dde719829e5ae",
+			"revisionTime": "2018-10-05T14:02:18Z"
+		},
+		{
+			"checksumSHA1": "HSP5hVT0CNMRa8+Xtz4z2Ic5U0E=",
+			"path": "github.com/prometheus/procfs/nfs",
+			"revision": "185b4288413d2a0dd0806f78c90dde719829e5ae",
+			"revisionTime": "2018-10-05T14:02:18Z"
+		},
+		{
+			"checksumSHA1": "yItvTQLUVqm/ArLEbvEhqG0T5a0=",
+			"path": "github.com/prometheus/procfs/xfs",
+			"revision": "185b4288413d2a0dd0806f78c90dde719829e5ae",
+			"revisionTime": "2018-10-05T14:02:18Z"
+		},
+		{
+			"checksumSHA1": "uefllr2OtKBGo/kQSAPbW3w6p0A=",
+			"path": "github.com/stretchr/testify/suite",
+			"revision": "04af85275a5c7ac09d16bb3b9b2e751ed45154e5",
+			"revisionTime": "2018-10-09T18:43:15Z"
+		},
+		{
+			"checksumSHA1": "ua2PK6PDbNCyzxOmakS3BJoF8Co=",
+			"path": "github.com/valyala/bytebufferpool",
+			"revision": "cdfbe9377474227bb42120c1e22fd4433e7f69bf",
+			"revisionTime": "2018-09-05T18:22:47Z"
+		},
+		{
+			"checksumSHA1": "4SDbb9y9fp8eVOY393Kun1xtMVA=",
+			"path": "github.com/valyala/fasthttp",
+			"revision": "8f4c5d5d1dbb772a29f059645f0f03a4556c1dad",
+			"revisionTime": "2018-11-03T14:34:05Z"
+		},
+		{
+			"checksumSHA1": "XUlODEeHXvPDrus/NY1Ah43Yf3I=",
+			"path": "github.com/valyala/fasthttp/fasthttputil",
+			"revision": "8f4c5d5d1dbb772a29f059645f0f03a4556c1dad",
+			"revisionTime": "2018-11-03T14:34:05Z"
+		},
+		{
+			"checksumSHA1": "XXd4XI5F0duiRD/a0SHq2V8hdFM=",
+			"path": "github.com/valyala/fasthttp/stackless",
+			"revision": "8f4c5d5d1dbb772a29f059645f0f03a4556c1dad",
+			"revisionTime": "2018-11-03T14:34:05Z"
+		},
+		{
+			"checksumSHA1": "+SrMzo4EJeOuoF9AKdbw8QWOOYQ=",
+			"path": "github.com/xiang90/probing",
+			"revision": "07dd2e8dfe18522e9c447ba95f2fe95262f63bb2",
+			"revisionTime": "2016-08-13T15:48:53Z"
+		},
+		{
+			"checksumSHA1": "9VCT03G1QYtkpnzbRf+LWrX+oeA=",
+			"path": "go.etcd.io/bbolt",
+			"revision": "7ee3ded59d4835e10f3e7d0f7603c42aa5e83820",
+			"revisionTime": "2018-09-12T20:56:54Z"
+		},
+		{
+			"checksumSHA1": "8nCoO1ACxWgrtwUl84Se7YIWVMA=",
+			"path": "go.etcd.io/etcd/auth/authpb",
+			"revision": "83304cfc808cf6303d48c45a696f169fae422e68",
+			"revisionTime": "2018-10-31T23:12:32Z"
+		},
+		{
+			"checksumSHA1": "Jk0gGFdOHgsqxhoj9atENsLkwD0=",
+			"path": "go.etcd.io/etcd/etcdserver/etcdserverpb",
+			"revision": "83304cfc808cf6303d48c45a696f169fae422e68",
+			"revisionTime": "2018-10-31T23:12:32Z"
+		},
+		{
+			"checksumSHA1": "k/JdPi1KL2IfOjLIK0mTeoNdxs4=",
+			"path": "go.etcd.io/etcd/lease/leasepb",
+			"revision": "83304cfc808cf6303d48c45a696f169fae422e68",
+			"revisionTime": "2018-10-31T23:12:32Z"
+		},
+		{
+			"checksumSHA1": "jhOioaNf1vhn41ZCxI7dhmibbq8=",
+			"path": "go.etcd.io/etcd/mvcc/backend",
+			"revision": "83304cfc808cf6303d48c45a696f169fae422e68",
+			"revisionTime": "2018-10-31T23:12:32Z"
+		},
+		{
+			"checksumSHA1": "C/ndQTz6TCtOsL29UYTxuax9/rw=",
+			"path": "go.etcd.io/etcd/mvcc/mvccpb",
+			"revision": "83304cfc808cf6303d48c45a696f169fae422e68",
+			"revisionTime": "2018-10-31T23:12:32Z"
+		},
+		{
+			"checksumSHA1": "byl77NJm2QiR5tfeBzAf2QpeQUc=",
+			"path": "go.uber.org/atomic",
+			"revision": "8dc6146f7569370a472715e178d8ae31172ee6da",
+			"revisionTime": "2018-10-18T21:50:23Z"
+		},
+		{
+			"checksumSHA1": "HephvKOmm5xmOrCzhKEtcw7lqE8=",
+			"path": "go.uber.org/multierr",
+			"revision": "ddea229ff1dff9e6fe8a6c0344ac73b09e81fce5",
+			"revisionTime": "2018-01-22T17:25:45Z"
+		},
+		{
+			"checksumSHA1": "bs4Qet93Z8f2eB8MVdM2hXXTyso=",
+			"path": "go.uber.org/zap",
+			"revision": "67bc79d13d155c02fd008f721863ff8cc5f30659",
+			"revisionTime": "2018-08-14T18:34:19Z"
+		},
+		{
+			"checksumSHA1": "eC/XVln77aRfE/VocbN0NWdlRdg=",
+			"path": "go.uber.org/zap/buffer",
+			"revision": "67bc79d13d155c02fd008f721863ff8cc5f30659",
+			"revisionTime": "2018-08-14T18:34:19Z"
+		},
+		{
+			"checksumSHA1": "MuxOAtZEsJitlWBzhmpm2vGiHok=",
+			"path": "go.uber.org/zap/internal/bufferpool",
+			"revision": "67bc79d13d155c02fd008f721863ff8cc5f30659",
+			"revisionTime": "2018-08-14T18:34:19Z"
+		},
+		{
+			"checksumSHA1": "uC0L9eCSAYcCWNC8udJk/t1vvIU=",
+			"path": "go.uber.org/zap/internal/color",
+			"revision": "67bc79d13d155c02fd008f721863ff8cc5f30659",
+			"revisionTime": "2018-08-14T18:34:19Z"
+		},
+		{
+			"checksumSHA1": "b80CJExrVpXu3SA1iCQ6uLqTn2c=",
+			"path": "go.uber.org/zap/internal/exit",
+			"revision": "67bc79d13d155c02fd008f721863ff8cc5f30659",
+			"revisionTime": "2018-08-14T18:34:19Z"
+		},
+		{
+			"checksumSHA1": "iH3qg/pvsxQ9XW5t8FTc6veuYhY=",
+			"path": "go.uber.org/zap/zapcore",
+			"revision": "67bc79d13d155c02fd008f721863ff8cc5f30659",
+			"revisionTime": "2018-08-14T18:34:19Z"
+		},
+		{
+			"path": "golang.org/x/crypto/bcrypt",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "oVPHWesOmZ02vLq2fglGvf+AMgk=",
+			"path": "golang.org/x/crypto/blowfish",
+			"revision": ""
+		},
+		{
+			"path": "golang.org/x/time/rate",
+			"revision": ""
+		}
+	],
+	"rootPath": "github.com/bnchain/bnchain"
+}

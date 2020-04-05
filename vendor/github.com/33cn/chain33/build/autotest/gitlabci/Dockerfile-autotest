@@ -1,0 +1,9 @@
+FROM ubuntu:16.04
+
+WORKDIR /root
+COPY bnchain ./
+COPY bnchain-cli ./
+COPY autotest ./
+COPY *.toml ./
+
+CMD ["/root/bnchain", "-f", "/root/bnchain.toml"]

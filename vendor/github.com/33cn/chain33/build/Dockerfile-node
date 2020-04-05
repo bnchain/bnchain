@@ -1,0 +1,13 @@
+FROM ubuntu:16.04
+
+WORKDIR /data
+
+RUN mkdir -p /etc/bityuan/bnchain
+ADD  ./bnchain /usr/local/bin
+ADD  ./bnchain-cli /usr/local/bin
+ADD  ./bnchain.toml /etc/bityuan/bnchain
+
+EXPOSE 13802
+
+CMD ["bnchain", "-f", "/etc/bityuan/bnchain/bnchain.toml", "-datadir", "/data"]
+
